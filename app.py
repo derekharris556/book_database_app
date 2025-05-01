@@ -44,4 +44,4 @@ def search_by_author():
 # while loop to keep the program running
 
 if __name__ == '__main__':
-    pass
+    Base.metadata.create_all(engine)
